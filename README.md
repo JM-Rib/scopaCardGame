@@ -2,7 +2,7 @@
 
 # Code smells we found in the code:
 
-## main.py
+## main.py
 -- "run_game_with_form" mixes game logic, UI initialization and the application's event loop, making the function less reusable and harder to maintain.
 -- There's no mechanism to catch or report errors from the game logic.
 -- The name "run_game_with_form" could be better as it is hard to understand wich for it it reffering to.
